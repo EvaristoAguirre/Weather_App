@@ -18,16 +18,13 @@ https://evaristoaguirre.github.io/Weather_App/
 
 La interfaz está construida, a nivel gráfico, con una entrada única para seleccionar la ciudad sore la cual se desea obtener la información metereológica como se muestra en las imágenes a continuación. También se muestra la App en modo de espera de información, y con su formato final, cuando vuelca los datos obtenidos.
 
+![Inicio](https://user-images.githubusercontent.com/114101006/207700185-24aa0026-c37b-4105-86ec-aded1953b915.png)
 
+![Selección de ciudad](https://user-images.githubusercontent.com/114101006/207700310-9290fbdc-2e7a-41f9-9f34-347f79b14912.png)
 
-![App Screenshot](https://drive.google.com/file/d/11cRATSLGjLZSwztBpvXM-ZnlKTSFSZgy/view?usp=sharing)
+![Buscando información](https://user-images.githubusercontent.com/114101006/207489005-bfd20175-e11e-4375-9e0e-17ae882d99d5.png)
 
-![App Screenshot](https://drive.google.com/file/d/1lBl1OZVYoYS2VXi1v6km1x1BDTlJ_dCJ/view?usp=sharing)
-
-![App Screenshot](https://drive.google.com/file/d/1PVYqmqupi4IoW-Ahg7tGZ_x2Rrcu_8vH/view?usp=sharing)
-
-![App Screenshot](https://drive.google.com/file/d/1FAJoHa3muMLde0rmYKmAc1E30v9so6tC/view?usp=sharing)
-
+![Resumen de información](https://user-images.githubusercontent.com/114101006/207700363-ab5f4362-4618-4fe9-9d0c-c1dcf36bfff8.png)
 
 
 ## API Reference
@@ -35,7 +32,7 @@ La interfaz está construida, a nivel gráfico, con una entrada única para sele
 #### Llamada a API para obtener los datos metereológicos actuales:
 
 ```http
- https://api.openweathermap.org/data/2.5/weather?q={city name}&appid={API key}
+ https://api.openweathermap.org/data/2.5/weather?q={city name}&lang={language}&unit={unit}&appid={API key}
 ```
 
 | Parameter | Type     | Description                |
@@ -48,7 +45,7 @@ La interfaz está construida, a nivel gráfico, con una entrada única para sele
 #### Llamada a API para obtener las predicciones metereológicos en las próximas horas:
 
 ```http
- https://api.openweathermap.org/data/2.5/forecast?q={city name}&appid={API key}
+ https://api.openweathermap.org/data/2.5/forecast?q={city name}&lang={language}&unit={unit}appid={API key}
 ```
 
 | Parameter | Type     | Description                |
@@ -94,7 +91,6 @@ A nivel dependencias y scripts se necesitó de:
 - Bootstrap icons
 - gh-pages
 - React-Bootstrap
-![Buscando información](https://user-images.githubusercontent.com/114101006/207489005-bfd20175-e11e-4375-9e0e-17ae882d99d5.png)
 
 
 ## Feedback
