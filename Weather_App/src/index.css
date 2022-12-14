@@ -1,0 +1,46 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    /* background-color: #858da3; */
+    /* background-color: #6c63ff; */
+    /* background-image: radial-gradient(circle at -16.45% 25.82%, #a6d7ee 0, #aad6f1 7.14%, #aed5f2 14.29%, #b4d4f4 21.43%, #bad2f4 28.57%, #c0d0f4 35.71%, #c7cff3 42.86%, #cdcdf2 50%, #d3cbf0 57.14%, #d9caed 64.29%, #dfc8ea 71.43%, #e4c7e6 78.57%, #e9c6e2 85.71%, #edc5dd 92.86%, #f1c4d8 100%); */
+    /* background-image: radial-gradient(circle at 41.68% 49.27%, #3a5465 0, #1f4459 50%, #00344d 100%); */
+    background-color: #54787d;
+    text-align: center;
+  }
+
+.card{
+    width: 60%;
+    
+}
+
+.imagen{
+    max-height: 60%;
+}
+
+.navbar{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.formulario{
+    width: 62%;
+    margin: 0 auto;
+}
+
+.form-input{
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+.navbar{
+    margin-top: 2rem;
+}

@@ -1,0 +1,11 @@
+.btn{
+    color: rgb(37, 37, 37);
+    background-color: rgba(138, 183, 167,0.2);
+    border-color: rgba(138, 183, 167,0.2);
+}
+
+.btn:hover{
+    color: rgb(197, 197, 197);
+    background-color: rgba(138, 183, 167,0.5);
+    border-color:  rgba(138, 183, 167,0.5);
+}

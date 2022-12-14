@@ -1,0 +1,94 @@
+h3{
+    color: rgb(27, 27, 27);
+}
+
+.sinDatos{
+    max-width: 20%;
+}
+
+.card-imagen{
+    width: 100%;
+}
+
+.card-body-accesorio h3{
+    font-size: 1rem;
+}
+
+.tarjeta{
+    background-color: transparent;
+    max-width: 60%;
+    margin: 0 auto;
+    border: 2px solid rgb(158, 158, 158);
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px rgba(158,158,158,0.8);
+}
+
+.spinner{
+    width: 30%;
+}
+
+.prediccion{
+    color:white;
+}
+
+.icono-loc{
+    color: rgb(37, 37, 37);
+    margin-right: .5rem;
+    width: 2rem;
+}
+
+.col-1-container h2{
+    color:#f5f5f8;
+    font-size: 1.25rem;
+    margin-top: .75rem;
+}
+
+.col-3 h3{
+    color:#b5b5b9;
+}
+
+.col-3-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.col-2-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.col-1-container{
+    margin-top: 2rem;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.tarjeta-2{
+    margin-top: 1rem;
+    padding: .75rem 0;
+}
+
+.tarjeta-2 p{
+    font-size: 1rem;
+}
+
+.tarjeta-2-col{
+    padding: .5rem 0;
+    
+}
+
+.tarjeta-2-col p{
+    margin: .2rem 0;
+    font-size: .75rem;
+}
+

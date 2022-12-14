@@ -1,3 +1,17 @@
-body{
-  background-color: #2f3544;
+.fondo{
+    max-width: 20%;
+}
+
+.App{
+    
+}
+
+.fondo{
+    /* background-image: url(./assets/Image/weather-app.svg);
+    /* background-repeat: no-repeat;
+    background-position-y:bottom;
+    background-position-x: right;
+    background-size: 50%;
+    max-height: 90vh; */
+    /* width: 50%; */
 }
