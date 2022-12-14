@@ -94,6 +94,7 @@ A nivel dependencias y scripts se necesitó de:
 - Bootstrap icons
 - gh-pages
 - React-Bootstrap
+![Buscando información](https://user-images.githubusercontent.com/114101006/207489005-bfd20175-e11e-4375-9e0e-17ae882d99d5.png)
 
 
 ## Feedback
